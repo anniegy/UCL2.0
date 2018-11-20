@@ -1,0 +1,38 @@
+
+body {
+  background-color: #184047
+}
+div.topnav {
+  border-width: thin;
+  border-color: #ffffff;
+  border-style:solid;
+  margin-top: 15px;
+
+}
+.topnav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  font-family: helvetica;
+  font-size: 40px;
+  margin: 60px 100px 20px 30px;
+  padding: 0px 10px 5px 10px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
