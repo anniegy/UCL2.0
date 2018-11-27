@@ -2,21 +2,21 @@
 body {
   background-color: #184047
 }
-div.topnav {
+nav.navbar {
   border-width: thin;
   border-color: #ffffff;
   border-style:solid;
-  margin-top: 15px;
+  margin-top: 5px;
 
 }
-.topnav a {
+.navbar a {
   color: #ffffff;
   text-decoration: none;
   font-style: normal;
   font-family: helvetica;
   font-size: 40px;
-  margin: 60px 100px 20px 30px;
-  padding: 0px 10px 5px 10px;
+  margin: 20px 130px 10px 20px;
+  padding: 10px 10px 5px 10px;
 
 }
 
@@ -35,4 +35,8 @@ div.topnav {
     content: "";
     clear: both;
     display: table;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
 }
