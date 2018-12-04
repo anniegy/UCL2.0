@@ -93,3 +93,49 @@ footer.blockquote-footer {
 blockquote {
   padding: 20px 10px 40px 0px;
 }
+
+.container {
+    position: center;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+}
+
+.img_wrap {
+  position: relative;
+}
+
+.img_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+p {
+  padding: 80px;
+  margin: 0;
+}
