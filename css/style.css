@@ -79,4 +79,6 @@ p.mb-0 {
 footer.blockquote-footer {
   font-family: 'Quicksand'sans-serif;
   font-size:20px;
+  border-style: solid;
+  border-color: white;
 }
