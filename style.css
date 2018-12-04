@@ -42,6 +42,17 @@ img:hover {
     filter: alpha(opacity=50);
 }
 
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
 .text {
   color: white;
   font-size: 20px;
@@ -55,7 +66,9 @@ img:hover {
 }
 
 .container {
+
     position: center;
+
     text-align: center;
     color: white;
 }
