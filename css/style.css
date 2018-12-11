@@ -110,6 +110,7 @@ blockquote {
     position: center;
     text-align: center;
     color: white;
+    padding: 90px 0px 0px 0px
 }
 
 .centered {
@@ -118,7 +119,6 @@ blockquote {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .img-responsive {
   width: 100%;
   height: 100%;
@@ -150,6 +150,9 @@ blockquote {
 #photobar {
   padding: 80px;
   margin: 0;
+  font-style: normal;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
 }
 
 #learnmore {
